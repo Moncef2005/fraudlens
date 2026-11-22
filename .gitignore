@@ -1,0 +1,21 @@
+﻿.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.env
+
+# Données lourdes (seront versionnées avec DVC plus tard)
+data/raw/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+
+# Modèles et expériences
+mlruns/
+models_store/
+*.pkl
+*.joblib
+*.pt

@@ -1,0 +1,58 @@
+{
+  "rows": 6362620,
+  "fraud_count": 8213,
+  "fraud_rate": 0.001290820448180152,
+  "duplicates": 0,
+  "missing_values": 0,
+  "negative_values": {
+    "amount": 0,
+    "oldbalanceOrg": 0,
+    "newbalanceOrig": 0,
+    "oldbalanceDest": 0,
+    "newbalanceDest": 0
+  },
+  "zero_amount_rows": 16,
+  "zero_amount_fraud": 16,
+  "merchant_dest_rows": 2151495,
+  "merchant_dest_fraud": 0,
+  "balance_error_orig_rate": 0.7980503314672258,
+  "balance_error_dest_rate": 0.3201750222392662,
+  "balance_error_orig_rate_by_class": {
+    "0": 0.7990747208984254,
+    "1": 0.005479118470717156
+  },
+  "balance_error_dest_rate_by_class": {
+    "0": 0.3198586429858837,
+    "1": 0.5649579934250578
+  },
+  "flagged_rows": 16,
+  "flagged_and_fraud": 16,
+  "flag_rule_recall": 0.0019481310118105442,
+  "fraud_by_type": {
+    "CASH_IN": {
+      "transactions": 1399284,
+      "fraudes": 0
+    },
+    "CASH_OUT": {
+      "transactions": 2237500,
+      "fraudes": 4116
+    },
+    "DEBIT": {
+      "transactions": 41432,
+      "fraudes": 0
+    },
+    "PAYMENT": {
+      "transactions": 2151495,
+      "fraudes": 0
+    },
+    "TRANSFER": {
+      "transactions": 532909,
+      "fraudes": 4097
+    }
+  },
+  "fraud_per_step_min": 2,
+  "fraud_per_step_max": 40,
+  "steps_without_fraud": 2,
+  "orig_accounts_repeated": 9298,
+  "dest_accounts_repeated": 459658
+}

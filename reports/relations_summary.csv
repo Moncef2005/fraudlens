@@ -1,0 +1,7 @@
+﻿Paire,Pearson brut (r),Spearman (rho),Nature,Force (brut),Transformation retenue,Pearson après (r),R² après,Force (après)
+oldbalanceOrg vs newbalanceOrig,0.999,0.8045,Linéaire positive,très forte,Brute,0.9991,0.9981,très forte
+amount vs oldbalanceOrg,-0.0048,0.0452,Sans relation apparente,négligeable,Racine carrée,0.0495,0.0025,négligeable
+oldbalanceDest vs newbalanceDest,0.9765,0.9359,Linéaire positive,très forte,Brute,0.9775,0.9555,très forte
+amount vs newbalanceDest,0.4619,0.6684,Non linéaire (ou faible),modérée,Yeo-Johnson,0.6917,0.4784,forte
+amount vs newbalanceOrig,-0.0082,-0.0718,Sans relation apparente,négligeable,Yeo-Johnson,-0.1571,0.0247,faible
+step vs amount,0.0291,0.0044,Sans relation apparente,négligeable,Brute,0.0285,0.0008,négligeable
